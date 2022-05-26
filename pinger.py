@@ -16,4 +16,3 @@ while True:
  elif r.status_code != 200:
      print(f'{downed} Connection timed out: {r.status_code}')    
 
- input()     
